@@ -80,3 +80,10 @@ In order to do this I whad to set up enzyme:
 ```
 npm install enzyme
 ```
+Then I wrote a smoke test:
+```JavaScript
+it('renders without crashing', () => {
+  shallow(<User />)
+});
+```
+And then created a react component.
