@@ -115,3 +115,13 @@ Immediately I realised my current design is insufficient so lets remodel it.
 ### Spike time
 
 At this second stage in planning it became evident I have no idea what I am doing and I need to spike some code in order to see what I am really going to create.
+
+Okay so I have managed to get some basic user input into the state in react. Lets use that to create a graph.
+
+### Graph
+
+Okay I am going to use react-chartist:
+```
+npm install chartist --save
+npm install react-chartist --save
+```
