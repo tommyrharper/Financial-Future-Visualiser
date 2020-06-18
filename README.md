@@ -2,7 +2,9 @@
 
 This project is designed to help you visualise your financial potential if you have a regular savings and investment plan.
 
-## Design
+## Developer Journal
+
+### Design
 
 ### User Stories
 
@@ -56,8 +58,6 @@ This project is designed to help you visualise your financial potential if you h
 | Graph | this.props.graphData<br> this.generateGraph()<br> this.updateGraph() |
 | InvestmentCalculator | this.props.userData <br> this.calculateGraphData() |
 
-## Devloper Journal
-
 ### Set up
 
 I started this project by creating an empty repository on github and then a react app on my local machine using:
@@ -98,3 +98,20 @@ import 'jest-enzyme'
 
 configure({ adapter: new Adapter() });
 ```
+
+### Redesign
+
+Immediately I realised my current design is insufficient so lets remodel it.
+
+### New Domain Model
+
+| Objects | Messages |
+|---------|----------|
+| User | this.props.startingCash <br> this.props.savingsPercentage <br> this.props.currentIncome <br> this.props.futureIncome <br> this.props.futureIncomeYear <br> this.props.investmentLength <br> this.props.ROI |
+| Graph | this.props.graphData<br> this.generateGraph()<br> this.updateGraph() |
+| InvestmentCalculator | this.props.userData <br> this.calculateGraphData() |
+| Form | this.state.startingCash <br> this.state.savingsPercentage <br> this.state.currentIncome <br> this.state.futureIncome <br> this.state.futureIncomeYear <br> this.state.investmentLength <br> this.state.ROI |
+
+### Spike time
+
+At this second stage in planning it became evident I have no idea what I am doing and I need to spike some code in order to see what I am really going to create.
