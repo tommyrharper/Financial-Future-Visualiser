@@ -1,4 +1,5 @@
 import React from 'react';
+import Graph from './Graph'
 
 class DataInput extends React.Component {
   constructor(props) {
@@ -7,6 +8,7 @@ class DataInput extends React.Component {
       formValues: {}
     }
   }
+  
 
   handleChange(event) {
     event.preventDefault();
@@ -26,6 +28,7 @@ class DataInput extends React.Component {
 
   render(){
     return (
+      <>
       <form onSubmit={this.handleSubmit.bind(this)}>
         <label> Starting Cash:
           <input type="text" name="startingCash" placeholder="10000 = £10,000" value={this.state.formValues["name"]} onChange={this.handleChange.bind(this)} />
@@ -35,6 +38,8 @@ class DataInput extends React.Component {
         </label><br />
         <input className="btn btn-primary" type="submit" value="Submit" />
       </form>
+      <Graph />
+      </>
     )
   }
 }
