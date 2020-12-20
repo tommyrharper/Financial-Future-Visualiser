@@ -26,19 +26,19 @@ This project is designed to help you visualise your financial potential if you h
 > So that I can see how changes will affect my future,
 > I would like the values to be adjustable.
 
-- [] 4
+- [ ] 4
 
 > As a user,  
 > So that so I can enjoy playing with the graph,
 > I would like there to be sliders for the values.
 
-- [] 5
+- [ ] 5
 
 > As a user,  
 > So that so that I can save my details,
 > I would like to be able to sign up.
 
-- [] 6
+- [ ] 6
 
 > As a user,  
 > So that so that I make accuracte calculations with my income,
