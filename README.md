@@ -8,19 +8,19 @@ This project is designed to help you visualise your financial potential if you h
 
 ### User Stories
 
-- [] 1
+- [x] 1
 
 > As a user,  
 > So the program responds to my personal situation
 > I would like to be able to enter my details.
 
-- [] 2
+- [x] 2
 
 > As a user,  
 > So that I can see my financial future,
 > I would like the page to generate a graph.
 
-- [] 3
+- [x] 3
 
 > As a user,  
 > So that I can see how changes will affect my future,
@@ -33,12 +33,6 @@ This project is designed to help you visualise your financial potential if you h
 > I would like there to be sliders for the values.
 
 - [] 5
-
-> As a user,  
-> So that so that I can save my details,
-> I would like to be able to sign up.
-
-- [] 6
 
 > As a user,  
 > So that so that I can save my details,
